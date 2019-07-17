@@ -1,6 +1,17 @@
 # EtaKatana
 
-EtaKatana is project based on integration of robot Katana 400, made by company Neuronics, Kinect 2 and robotics vehicle Neobotix MPS-400. Whole system will comunicate with user using multiplatform aplication. The program is devoping using ROS kinetic. 
+The theoretical part of the thesis concentrates on the topic of assistive robots in health and social care and illustrates possible applications for mobile manipulators in the given area. In the practical part, it processes the proposal of an assistive robot in the form of a vision-guided mobile manipulator. The implementation is simplified on the pick and place task of a detected object by the camera using the Katana 400 manipulator written in ROS.
+
+## Content of the project
+* folder /thesis: There is the text of the thesis.
+* folder /code: There are two subfolders EtaKatana2 where there is the
+program of the whole project described in Doxygen documentation and
+README.md. The ROS based implementation is written in C++ and
+consists of vision and robot package for better modularity. The folder
+models includes the proposal for the mobile manipulator, in a form of
+the 3D model and calibration the ball. 
+* folder /attachment/videos: There are the example videos of the pick and
+place task for a box with medicaments and a can.
 
 ## Getting started
 
