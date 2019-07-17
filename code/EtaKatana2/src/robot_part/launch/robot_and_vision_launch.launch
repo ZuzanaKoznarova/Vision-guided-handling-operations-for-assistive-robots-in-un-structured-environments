@@ -1,0 +1,6 @@
+<launch>
+        <node pkg="robot_part" name="my_forward_kinematic" type="my_forward_kinematic"/>
+        <node pkg="robot_part" name="my_inverse_kinematic" type="my_inverse_kinematic"/>
+        <node pkg="vision_part" name="depth_on_RGB_coordinates" type="depth_on_RGB_coordinates"/>
+        <node pkg="vision_part" name="recognize_and_show_object" type="recognize_and_show_object" output="screen"/>
+</launch>

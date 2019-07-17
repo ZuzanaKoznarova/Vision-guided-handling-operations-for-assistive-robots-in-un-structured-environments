@@ -1,0 +1,15 @@
+float64[] center_x
+float64[] center_y
+float64[] center_z
+float64[] length_x
+float64[] length_y
+float64[] length_z
+float64[] rotation_z
+float64[] right_top_x
+float64[] right_top_y
+float64[] right_down_x
+float64[] right_down_y
+float64[] left_top_x
+float64[] left_top_y
+float64[] left_down_x
+float64[] left_down_y

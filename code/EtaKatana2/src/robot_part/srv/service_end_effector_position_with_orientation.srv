@@ -1,0 +1,12 @@
+float64 x
+float64 y
+float64 z
+float64 roll
+float64 pitch
+float64 yaw
+---
+float64[] katana_motor1_pan_joint
+float64[] katana_motor2_lift_joint
+float64[] katana_motor3_lift_joint
+float64[] katana_motor4_lift_joint
+float64[] katana_motor5_wrist_roll_joint

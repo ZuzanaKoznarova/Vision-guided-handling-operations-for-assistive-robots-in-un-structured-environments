@@ -1,0 +1,9 @@
+%YAML:1.0
+---
+transformation: !!opencv-matrix
+   rows: 3
+   cols: 4
+   dt: d
+   data: [ .Nan, .Nan, .Nan, .Nan, .Nan, .Nan, .Nan, .Nan, .Nan, .Nan,
+       .Nan, .Nan ]
+average_deviation: .Nan
